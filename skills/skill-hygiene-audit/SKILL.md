@@ -10,7 +10,7 @@ The silent failure mode of agent skills: the same skill installed in two directo
 Install the CLI:
 
 ```bash
-pip install skilldoctor
+pip install agent-skilldoctor
 ```
 
 ## 1. Run the audit
