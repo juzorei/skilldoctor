@@ -1,0 +1,21 @@
+{
+  "name": "skilldoctor",
+  "owner": {
+    "name": "juzorei"
+  },
+  "metadata": {
+    "description": "Agent skill hygiene audit: broken SKILL.md lints and duplicate/shadow detection",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "skilldoctor",
+      "description": "Audit skill installations: find broken skills and duplicates shadowing each other across agent directories",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/skill-hygiene-audit"
+      ]
+    }
+  ]
+}

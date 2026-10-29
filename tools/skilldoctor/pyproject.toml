@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skilldoctor"
+version = "0.1.0"
+description = "Audit AI agent skill directories: broken SKILL.md files, duplicate and shadowed skills across install roots"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "juzorei" }]
+keywords = ["agent-skills", "claude-code", "codex", "skill-doctor", "linting", "agent-skills-marketplace"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Quality Assurance",
+]
+
+[project.urls]
+Homepage = "https://github.com/juzorei/skilldoctor"
+
+[project.scripts]
+skilldoctor = "skilldoctor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
