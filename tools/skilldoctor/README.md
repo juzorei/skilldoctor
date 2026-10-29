@@ -26,7 +26,7 @@ The checks are deliberately mechanical — every one of them corresponds to a re
 
 Precedence honesty: where an agent documents `project over user`, the winner is marked. Where precedence between roots is undocumented (`.claude` vs `.agents`), skilldoctor reports the duplicate and refuses to guess — that guess is how edits get lost.
 
-Install: `pip install skilldoctor` — or from this repo:
+Install: `pip install agent-skilldoctor` — or from this repo:
 `pip install "git+https://github.com/juzorei/skilldoctor#subdirectory=tools/skilldoctor"`
 
 The companion agent skill lives in [skills/skill-hygiene-audit](../skills/skill-hygiene-audit): how to read the report, dedupe without losing local edits (diff before delete), fix the broken copies, and re-scan after every install. Skills: `npx skills add juzorei/skilldoctor`.

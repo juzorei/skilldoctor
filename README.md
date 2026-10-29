@@ -4,7 +4,7 @@
 
 [![CI](https://github.com/juzorei/skilldoctor/actions/workflows/ci.yml/badge.svg)](https://github.com/juzorei/skilldoctor/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/github/license/juzorei/skilldoctor)](LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/skilldoctor)](https://pypi.org/project/skilldoctor/)
+[![PyPI](https://img.shields.io/pypi/v/skilldoctor)](https://pypi.org/project/agent-skilldoctor/)
 
 An agent skill and a CLI that audit AI-agent skill installations: broken SKILL.md files, and duplicate skills shadowing each other across install roots.
 
@@ -31,7 +31,7 @@ DUPLICATES / SHADOWING
 ## Install
 
 ```bash
-pip install skilldoctor
+pip install agent-skilldoctor
 npx skills add juzorei/skilldoctor
 ```
 

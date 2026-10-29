@@ -27,7 +27,7 @@ DUPLICATES / SHADOWING
 ## Установка
 
 ```bash
-pip install skilldoctor
+pip install agent-skilldoctor
 npx skills add juzorei/skilldoctor
 ```
 

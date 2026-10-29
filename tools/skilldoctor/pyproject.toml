@@ -3,7 +3,7 @@ requires = ["setuptools>=69"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "skilldoctor"
+name = "agent-skilldoctor"
 version = "0.1.0"
 description = "Audit AI agent skill directories: broken SKILL.md files, duplicate and shadowed skills across install roots"
 readme = "README.md"
