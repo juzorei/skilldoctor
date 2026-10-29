@@ -3,6 +3,7 @@ name: publish-skilldoctor
 on:
   release:
     types: [published]
+  workflow_dispatch: {}
 
 permissions:
   id-token: write
