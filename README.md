@@ -35,6 +35,16 @@ pip install agent-skilldoctor
 npx skills add juzorei/skilldoctor
 ```
 
+## More from this portfolio
+
+Part of a series of focused skill+CLI tools by the same author:
+
+- [game-re-skills](https://github.com/juzorei/game-re-skills) — the biggest collection these audits were tested on
+- [ci-autopsy](https://github.com/juzorei/ci-autopsy) — run skill audits in CI the same way
+- [loglens](https://github.com/juzorei/loglens) — triage any log, including agent transcripts
+
+Browse the rest at the [juzorei profile](https://github.com/juzorei?tab=repositories).
+
 ## Scope
 
 Audit skill directories on machines you own; deletion is the user's call.

@@ -31,6 +31,16 @@ pip install agent-skilldoctor
 npx skills add juzorei/skilldoctor
 ```
 
+## Ещё из портфеля
+
+Один из серии прицельных наборов «скилл + CLI» одного автора:
+
+- [game-re-skills](https://github.com/juzorei/game-re-skills) — самая большая коллекция, на которой обкатаны эти аудиты
+- [ci-autopsy](https://github.com/juzorei/ci-autopsy) — запускай аудит скиллов в CI по той же схеме
+- [loglens](https://github.com/juzorei/loglens) — триаж любых логов, включая транскрипты агентов
+
+Остальные — в [профиле juzorei](https://github.com/juzorei?tab=repositories).
+
 ## Рамки
 
 Аудит каталогов скиллов на своих машинах; удаление — только решение владельца.
